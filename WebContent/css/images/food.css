@@ -1,0 +1,391 @@
+
+/*
+            @import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+     */       
+            html, body{
+                margin:0px;
+                padding:0px;
+            }
+            
+            .x-btn-inner-default-small {
+            	font-size:16px;
+            }
+            
+            .x-form-text-default {
+            	font-size:16px;
+            }
+            
+            .poi_detailInfo {
+            	border:0px solid #777777;
+            	padding: 1px;
+            	width: -moz-calc(100% - 10px);
+				width: -webkit-calc(100% - 10px);
+				width: calc(100% - 10px);
+            }
+            
+            .poi_poiDetail{
+                /* font-family: 'Nanum Barun Gothic', sans-serif; */
+                background-color:#FFFFFF; 
+                /*height:165px;*/
+                padding:5px 5px;
+                text-align:left;
+                height: 80px;
+            }
+
+	    .poi_poiDetail div .thumbnail{
+                vertical-align:middle;
+                margin-right:5px;
+                width:70px;
+                height:70px;
+                padding-bottom:2px;
+            }
+
+            .poi_poiDetail .thumText{
+                display:block;
+                padding:5px;
+                color:#333333;
+                width: -moz-calc(100% - 100px);
+				width: -webkit-calc(100% - 100px);
+	        	width: calc(100% - 100px);
+			    
+            }
+            
+            .poi_poiDetail .thumText .title{
+                font-size:16px;
+                font-weight:700;
+                padding-bottom:5px;
+                display:block;
+            }
+            
+            .poi_poiDetail .thumText .blogname{
+                font-size:12px;
+                font-weight:300;
+                padding-left:5px;
+                color:#d58200;
+            }
+            
+            .poi_poiDetail .thumText .score{
+                font-size:7px;
+                margin-right:3px;
+                color:#dddddd;
+                float:right;
+            }
+            
+            .poi_poiDetail .thumText .icon{
+                text-align:center;
+                vertical-align:middle;
+                margin-right:5px;
+                margin-top:0px;
+            }
+
+            .poi_poiDetail .thumText .context{
+                padding-top:2px;
+                padding-left:5px;
+                font-size:12px;
+                color:#333333;
+                display:block;
+            }
+            
+            .poi_poiView{
+                /* font-family: 'Nanum Barun Gothic', sans-serif; */
+                background-color:#725e45;
+                /*height:165px;*/
+                padding:5px 5px;
+                text-decoration: none;
+            }
+            
+            .poi_poiView .thumText{
+                display:block;
+                padding:5px;
+                width:100%;
+                color:#ffffff;
+                text-align:left;
+            }
+            
+            .poi_poiView .thumText .icon{                
+                vertical-align:middle;
+                margin-right:5px;
+                margin-top:0px;
+            }
+            
+            .poi_poiView .thumText .context{
+                padding-top:2px;
+                padding-left:5px;
+                font-size:12px;
+                color:#ffffff;
+                display:block;
+                font-weight:300;
+            }
+            
+            
+                        
+            #poiDetail{
+                /* font-family: 'Nanum Barun Gothic', sans-serif; */
+                background-color:#391c0a;
+                /*height:165px;*/
+                padding:5px 5px;
+		width: -moz-calc(100% - 15px);
+                width: -webkit-calc(100% - 15px);
+                width: calc(100% - 15px);
+            }
+
+
+            #poiDetail .thumText{
+                display:block;
+                padding:5px;
+                width:100%;
+                color:#ffffff;
+            }
+            #poiDetail .thumText .title{
+                font-size:16px;
+                font-weight:700;
+                padding-bottom:5px;
+                display:block;
+            }
+            #poiDetail .thumText .blogname{
+                font-size:12px;
+                font-weight:300;
+                padding-left:5px;
+                color:#f5920a;
+            }
+            #poiDetail .thumText .icon{
+                text-align:center;
+                vertical-align:middle;
+                margin-right:5px;
+                margin-top:0px;
+            }
+
+            #poiDetail .thumText .context{
+                padding-top:2px;
+                padding-left:5px;
+                font-size:12px;
+                color:#ffffff;
+                display:block;
+            }
+            #poiView{
+                /* font-family: 'Nanum Barun Gothic', sans-serif; */
+                background-color:#725e45;
+                /*height:165px;*/
+                padding:5px 5px;
+		width: -moz-calc(100% - 15px);
+                width: -webkit-calc(100% - 15px);
+                width: calc(100% - 15px);
+            }
+            #poiView .thumText{
+                display:block;
+                padding:5px;
+                width:100%;
+                color:#ffffff;
+            }
+            #poiView .thumText .icon{
+                text-align:center;
+                vertical-align:middle;
+                margin-right:5px;
+                margin-top:0px;
+            }
+            #poiView .thumText .context{
+                padding-top:2px;
+                padding-left:5px;
+                font-size:12px;
+                color:#ffffff;
+                display:block;
+                font-weight:300;
+            }
+            
+            /*
+            .x-list-item a {
+            	text-decoration: none;
+            }
+            */
+            
+            
+            
+            div.listDetailItem {
+                /*float:left; */
+                height:82px;
+                border:1px dotted #777777;
+            	padding: 3px;
+            	overflow: hidden;
+		width: -moz-calc(100% - 15px);
+                width: -webkit-calc(100% - 15px);
+                width: calc(100% - 15px);
+            }
+            
+            
+            
+            div.listDetailItem .thumbnail{
+                vertical-align:middle;
+                margin-right:5px;
+                width:80px;
+                height:80px;
+                padding-bottom:2px;
+            }
+
+            div.listDetailItem .blogContent{
+                font-size:12px;
+                color:#391c0a;
+                text-decoration:none;
+            }
+
+            div.listDetailItem .blogName{
+                font-size:10px;
+                color:#666666;
+                font-weight:300;
+                text-decoration:none;
+                display:block;
+            }
+            
+            div.listDetailItem .blogName p {
+            	display:block;
+            }
+
+
+            div.poiBox {
+            	border:1px dotted #777777;
+            	padding: 3px;
+            }
+            
+            /*
+            a.poi:hover{
+            	border:1px solid #ff0000
+            }
+            */
+
+            div.poiBox .thumbnail{
+                vertical-align:middle;
+                margin-right:5px;
+                width:80px;
+                height:80px;
+                padding-bottom:2px;
+            }
+
+            div.poiBox .blogContent{
+                font-size:12px;
+                color:#391c0a;
+                text-decoration:none;
+            }
+
+            div.poiBox .blogName{
+                font-size:10px;
+                color:#666666;
+                font-weight:300;
+                text-decoration:none;
+            }
+
+
+            #nameList {
+                margin-left: 0;
+                padding-left: 0;
+                display: inline;
+                width: 100%;
+            }
+
+            #nameList ul li {
+                margin-left: 0;
+                padding: 3px 15px;
+                width:70px;
+                height:40px;
+                border-left: 1px solid #000;
+                list-style: none;
+                display: inline;
+            }
+
+            #nameList ul li.first {
+                margin-left: 0;
+                border-left: none;
+                list-style: none;
+                display: inline;
+            }
+
+            .poiBox .thumbBox{
+                width:100%;
+                height:80px;
+            }
+
+            .poiBox .thumbBox .thumbnail{
+                width:80px;
+                height:80px;
+            }
+
+            .poiBox .thumbBox div{
+                position:absolute;
+            }
+
+            .poiBox .thumbBox .thumText{
+                display:block;
+                margin-left:85px;
+                padding:5px;
+                width: -moz-calc(100% - 100px);
+			    width: -webkit-calc(100% - 100px);
+			    width: calc(100% - 120px);
+            }
+
+            .poiBox .thumbBox .thumText .icon{
+                text-align:center;
+                vertical-align:middle;
+                margin-right:5px;
+                margin-top:0px;
+            }
+
+            .poiBox .thumbBox .thumText .title{
+                font-size:16px;
+                font-weight:700;
+                color:#391c0a;
+                padding-bottom:5px;
+                display:block;
+            }
+
+            .poiBox .thumbBox .thumText .context{
+                padding-top:2px;
+                padding-left:5px;
+                font-size:14px;
+                color:#888888;
+                display:block;
+            }
+
+            .poiBox .blogBox{
+                height:20px;
+                font-size:12px;
+                background-color:#f2f2f2;
+            }
+
+            .poiBox .blogBox div {
+                position:absolute;
+            }
+
+            .poiBox .blogBox div.blogNum span{
+                margin-top:5px;
+                display:block;
+            }
+            
+            .poiBox .blogBox div.blogText span{
+                margin-left:5px;
+                margin-top:7px;
+                display:block;
+                overflow:hidden;
+                height:12px;
+            }
+            
+            .poiBox .blogBox div.blogText span em {
+            	font-weight: bold;
+            	color: #1E90FF;          	
+            }
+
+            .poiBox .blogBox .blogNum{
+                text-align:center;
+                background-color:#391c0a;
+                color:#ffffff;
+                width:80px;
+                height:20px;
+            }
+
+            .poiBox .blogBox .blogText{
+                margin-left:90px;
+                color:#888888;
+                overflow:hidden;
+            }
+
+			#blogList a.blog div.listDetailItem div span.blogName p em {
+				font-weight: bold;
+            	color: #1E90FF;  
+			}
