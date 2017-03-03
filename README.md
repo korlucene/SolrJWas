@@ -1,7 +1,9 @@
 # SolrJWas
 
 [Solr Demo Install & Run]
+
 Solr-6.3.0 with demo collection1 downloading url
+
 http://www.youngplussoft.com/data/tmp/solr-6.3.0.zip
 
 1. unzip solr-6.3.0.zip
@@ -12,6 +14,7 @@ http://www.youngplussoft.com/data/tmp/solr-6.3.0.zip
 
 
 [SolrJ WAS Demo Project Install & Run]
+
 1. import this project into eclipse workspace
 2. navigate to eclipse's window>show view>servers  menu
 3. click create new server
@@ -20,6 +23,6 @@ http://www.youngplussoft.com/data/tmp/solr-6.3.0.zip
 6. select "add & remove" from pull down menu of Tomcat v8.0 server at localhost
 7. add SolrJWas & Run
 
-http://localhost:8080/SolrJWas/
+   http://localhost:8080/SolrJWas/
 
 
